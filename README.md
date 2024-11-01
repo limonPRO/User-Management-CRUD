@@ -18,7 +18,13 @@ backend set up
 ```
 
 ```bash
- create a .env file in root and copy everything from .env.example 
+ create a .env file in root and paste thsese
+
+PORT = 5000
+HOST = "localhost"
+DATABASE= "crud"
+USER = "root"
+PASSWORD = ""
 
 ```
 
@@ -36,8 +42,8 @@ front end set up
  cd frontend
 ```
 ```bash
- create a .env file in root and copy everything from .env.example 
-
+ create a .env file in root and paste thsese 
+NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
 ```
 Install dependencies
 
